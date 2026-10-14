@@ -1,6 +1,6 @@
 import cv2
 
-video = cv2.VideoCapture("video.mp4")
+video = cv2.VideoCapture(0)
 
 print("Playing video in SLOW MOTION...")
 
@@ -23,7 +23,7 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 
-video = cv2.VideoCapture("video.mp4")
+video = cv2.VideoCapture(0)
 
 print("Playing video in FAST MOTION...")
 

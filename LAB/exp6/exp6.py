@@ -3,7 +3,7 @@ import numpy as np
 
 image = cv2.imread("input6.jpg")
 
-kernel = np.ones((5, 5), np.uint8)
+kernel = np.ones((10,10), np.uint8)
 
 eroded = cv2.erode(image, kernel, iterations=1)
 
